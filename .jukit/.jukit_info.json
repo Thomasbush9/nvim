@@ -1,0 +1,1 @@
+{"cmd": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Ensure Tkinter backend for external window display\nplt.switch_backend('TkAgg')\n\n# Generate data\nx = np.linspace(0, 4 * np.pi, 500)\ny1 = np.sin(x)\ny2 = np.sin(2 * x)\nprint(x)\n", "cmd_opts": "", "import_complete": 1, "terminal": "nvimterm"}

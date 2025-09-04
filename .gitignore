@@ -1,0 +1,21 @@
+# Neovim
+.swap
+.swp
+.swo
+.session
+undo/
+*.log
+
+# Lazy/pickers cache (kept in data dir, but just in case)
+site/
+pack/
+plugin/packer_compiled.lua
+
+# Local notes/tests
+sandbox/
+test.md
+tray_jup.py
+lazy/
+lazy/
+*.swp
+sandbox/
