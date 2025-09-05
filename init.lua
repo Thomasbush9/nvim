@@ -164,6 +164,7 @@ require('lazy').setup({
   { 'tpope/vim-fugitive' },
 
   -- === Utilities ===
+  { "nvim-neotest/nvim-nio", lazy = false },
   {
     "numToStr/Comment.nvim",
     lazy = false,
@@ -180,7 +181,6 @@ require('lazy').setup({
     opts = {}
   },
   { 'MunifTanjim/nui.nvim' },
-  { 'kevinhwang91/pathlib.nvim' },
   { 'itchyny/calendar.vim' },
 })
 
