@@ -45,18 +45,23 @@ require('lazy').setup({
       "nvim-tree/nvim-web-devicons",
     },
     config = function()
-      require("nvim-tree").setup({
-        view = {
-          width = 30,
-          side = "left",
-          mappings = {
-            list = {
-              { key = "v", action = "vsplit" },
-              { key = "s", action = "split" },
-            },
-          },
-        },
-      })
+    require("nvim-tree").setup({
+    view = {
+      width = 30,
+      side = "left",
+    },
+    on_attach = function(bufnr)
+      local api = require("nvim-tree.api")
+
+      -- Default mappings
+      api.config.mappings.default_on_attach(bufnr)
+
+      -- Custom mappings
+      vim.keymap.set("n", "v", api.node.open.vertical, { buffer = bufnr, desc = "Open: Vertical Split" })
+      vim.keymap.set("n", "s", api.node.open.horizontal, { buffer = bufnr, desc = "Open: Horizontal Split" })
+    end,
+})
+
     end,
   },
 
