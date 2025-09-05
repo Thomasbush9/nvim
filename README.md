@@ -5,16 +5,17 @@ It's tuned for Python and Academic writing with a focus on clean UI and useful d
 
 ## 📦 Features
 
-- Plugin Manager ![Lazy.vim](https://github.com/folke/lazy.nvim)
-- Colorscheme: ![gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim)
-- File Explorer: ![nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
-- Fuzzy finder: ![telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-- Treesitter: ![nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- LSP: ![nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) + ![mason.nvim](https://github.com/williamboman/mason.nvim)
-- Completion: ![nvim-cmp](https://github.com/hrsh7th/nvim-cmp) with LSP, buffer and path soruces
-- Snippets: ![LuaSnip](https://github.com/L3MON4D3/LuaSnip) and ![friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
-- Git: ![gisigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
-- ![papis.nvim](https://github.com/jghauser/papis.nvim)
+- Plugin Manager [Lazy.vim](https://github.com/folke/lazy.nvim)
+- Colorscheme: [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim)
+- File Explorer: [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+- Fuzzy finder: [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- Treesitter: [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- LSP: [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) + [mason.nvim](https://github.com/williamboman/mason.nvim)
+- Completion: [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) with LSP, buffer and path soruces
+- Snippets: [LuaSnip](https://github.com/L3MON4D3/LuaSnip) and [friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
+- Git: [gisigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+- [papis.nvim](https://github.com/jghauser/papis.nvim)
+
 
 
 ## 🎨 Theme
@@ -88,3 +89,4 @@ Make sure you have:
 - <leader>y -> copy selected text
 - <leader>gc -> comment in or out text
 - <leader>fz -> fuzzy finder
+
