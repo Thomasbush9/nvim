@@ -1,6 +1,6 @@
 # 💤 My Neovim Config (LazyVim-based)
 
-This is my personal Neovim 0.11+ configuration, built with ![lazy.vim](https://github.com/folke/lazy.nvim)
+This is my personal Neovim 0.11+ configuration, built with [lazy.vim](https://github.com/folke/lazy.nvim)
 It's tuned for Python and Academic writing with a focus on clean UI and useful defaults.
 
 ## 📦 Features
@@ -78,15 +78,16 @@ Make sure you have:
 
 ## 🗝️ Key Features & Shortcuts
 
-- <leader>e → Toggle file explorer (nvim-tree)
-- <leader>ff → Telescope find files
-- <leader>fg → Telescope live grep
-- <leader>fb → Telescope buffers
-- <leader>fh → Telescope help tags
+- leader+e → Toggle file explorer (nvim-tree)
+- leader+ff → Telescope find files
+- leader+fg → Telescope live grep
+- leader+fb → Telescope buffers
+- leader+fh → Telescope help tags
 
 **Other Important Keymaps:**
 
-- <leader>y -> copy selected text
-- <leader>gc -> comment in or out text
-- <leader>fz -> fuzzy finder
+- leader+y -> copy selected text
+- leader+gc -> comment in or out text
+- leader + fz -> fuzzy finder
+
 
