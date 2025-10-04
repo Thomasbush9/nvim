@@ -197,15 +197,21 @@ require('lazy').setup({
 {
   "https://www.github.com/zbirenbaum/copilot.lua",
   event = "InsertEnter",
-  cmd = "Copilot",
   config = function()
     require("copilot").setup({
-      suggestion = { enabled = true, auto_trigger = true },
-      panel = { enabled = true },
+      suggestion = { enabled = false }, -- disable ghost text
+      panel = { enabled = false },
       filetypes = { python = true, lua = true, markdown = true },
     })
   end,
-}
+},
+{
+  "https://www.github.com/zbirenbaum/copilot-cmp",
+  dependencies = { "zbirenbaum/copilot.lua" },
+  config = function()
+    require("copilot_cmp").setup()
+  end,
+},
 })
 
 -- ======================
@@ -269,6 +275,7 @@ cmp.setup({
     { name = 'buffer' },
     { name = 'path' },
     { name = 'luasnip' },
+    { name = 'copilot' },
   }
 })
 
@@ -325,17 +332,4 @@ require("toggleterm").setup({
   direction = "horizontal",
   close_on_exit = true,
   shell = vim.o.shell,
-})
-require("copilot").setup({
-  suggestion = {
-    enabled = true,
-    auto_trigger = true,
-    keymap = {
-      accept = "<Tab>",     -- accept suggestion
-      next   = "<C-n>",     -- next suggestion
-      prev   = "<C-p>",     -- previous suggestion
-      dismiss = "<C-e>",    -- dismiss
-    },
-  },
-  panel = { enabled = true },
 })
