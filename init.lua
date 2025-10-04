@@ -194,6 +194,18 @@ require('lazy').setup({
   },
   { 'MunifTanjim/nui.nvim' },
   { 'itchyny/calendar.vim' },
+{
+  "https://www.github.com/zbirenbaum/copilot.lua",
+  event = "InsertEnter",
+  cmd = "Copilot",
+  config = function()
+    require("copilot").setup({
+      suggestion = { enabled = true, auto_trigger = true },
+      panel = { enabled = true },
+      filetypes = { python = true, lua = true, markdown = true },
+    })
+  end,
+}
 })
 
 -- ======================

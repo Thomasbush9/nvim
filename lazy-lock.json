@@ -5,6 +5,7 @@
   "calendar.vim": { "branch": "master", "commit": "36d1a3a76e39b9d73ff964db2f75dacaf2d2bef3" },
   "catppuccin": { "branch": "main", "commit": "8162a4bd9afb42837a655e404d1f937a87ba95e6" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "a8912b88ce488f411177fc8aed358b04dc246d7b" },
+  "copilot.lua": { "branch": "master", "commit": "3cd5086c28c5769f5db147721f457a3e081de254" },
   "gitsigns.nvim": { "branch": "main", "commit": "39e0d1cd44eafed5f30c372e377ab1cb1781ec9f" },
   "gruvbox.nvim": { "branch": "main", "commit": "5e0a460d8e0f7f669c158dedd5f9ae2bcac31437" },
   "hererocks": { "branch": "master", "commit": "d2e2b7ab1ce5b6d4e517619746a810159f0e18db" },
