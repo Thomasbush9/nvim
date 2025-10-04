@@ -326,4 +326,16 @@ require("toggleterm").setup({
   close_on_exit = true,
   shell = vim.o.shell,
 })
-
+require("copilot").setup({
+  suggestion = {
+    enabled = true,
+    auto_trigger = true,
+    keymap = {
+      accept = "<Tab>",     -- accept suggestion
+      next   = "<C-n>",     -- next suggestion
+      prev   = "<C-p>",     -- previous suggestion
+      dismiss = "<C-e>",    -- dismiss
+    },
+  },
+  panel = { enabled = true },
+})
